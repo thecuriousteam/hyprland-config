@@ -1,0 +1,11 @@
+# Machine-specific display layout (nwg-displays)
+monitors.lua
+workspaces.lua
+
+# Logs and local state
+*.log
+*.pid
+
+# Editor / OS
+*~
+.DS_Store
