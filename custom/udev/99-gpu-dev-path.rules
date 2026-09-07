@@ -1,0 +1,6 @@
+# Alienware M16 R2 — stable DRM names for Hyprland AQ_DRM_DEVICES
+# Intel Arc (0000:00:02.0) and RTX 4060 (0000:01:00.0)
+# Install: sudo cp ~/.config/hypr/custom/udev/99-gpu-dev-path.rules /etc/udev/rules.d/
+
+KERNEL=="card*", KERNELS=="0000:00:02.0", SUBSYSTEM=="drm", SUBSYSTEMS=="pci", SYMLINK+="dri/intel-igpu"
+KERNEL=="card*", KERNELS=="0000:01:00.0", SUBSYSTEM=="drm", SUBSYSTEMS=="pci", SYMLINK+="dri/nvidia-dgpu"
