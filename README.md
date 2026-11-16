@@ -67,6 +67,8 @@ cd ~/.cache/dots-hyprland && git stash && git pull && ./setup install -s
 - Skip `rsync` steps that would overwrite configs you care about.
 - Keep `~/.config/hypr/custom/`. Do **not** follow the wiki step that says to move `custom/` away — that was only for the Hyprland 0.55 Lua migration.
 
+
+
 ## Restore if the update breaks
 
 Hyprland still works:
